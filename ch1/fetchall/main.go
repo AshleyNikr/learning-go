@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-	start := time.Now()
 	ch := make(chan string)
 	for _, url := range os.Args[1:] {
 		go fetch(url, ch) // start a goroutine
@@ -28,7 +27,6 @@ func main() {
 		}
 		fmt.Println(output) // receive from channel ch
 	}
-	//	fmt.Printf("%.2fs elapsed\n", time.Since(start).Seconds())
 	f.Close()
 }
 
