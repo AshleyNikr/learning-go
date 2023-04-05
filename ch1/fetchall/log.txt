@@ -1,0 +1,3 @@
+Get "https://ashleynikirk.com": dial tcp: lookup ashleynikirk.com: No address associated with hostname
+0.30s   14176 https://www.google.com
+0.51s   14151 http://google.com
