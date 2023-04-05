@@ -1,10 +1,11 @@
 package main
 
+import "os"
+
 import (
 	"fmt"
 	"io"
 	"net/http"
-	"os"
 	"strings"
 )
 
